@@ -24,7 +24,7 @@ border:1px solid rgb(87, 70, 15)
 
 
 .s{padding:2px;
-    border:1px white solid;
+    border:1px black solid;
 font-weight: bold;
 float:right;
 background-color: aquamarine;
@@ -39,10 +39,12 @@ height:600px;
 
 
 
+
+
 @media(min-width:992px){
     
 .col-lg-3{width:25%}
-.col-lg-4{width:30%}
+.col-lg-4{width:31%}
 
 .col-lg-12{width:100%}
 .s{background-color: rgb(238, 20, 220);}
@@ -58,7 +60,10 @@ height:600px;
 .col-md-4{width:33%}
 #col-md-5{width:46.66%}
 
-#col-md-12{width:100%}
+#col-md-12{width:96%}
 
 .s{background-color:rgb(165, 12, 84) ;}
+.row aside:nth-child(3){background-color: antiquewhite;
+
+}
 }
